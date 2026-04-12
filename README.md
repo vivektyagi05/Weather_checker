@@ -1,71 +1,76 @@
 🌤️ Weather Checker – Real-Time Weather Web App
 
-A modern, responsive weather web application that provides real-time weather updates for any location worldwide using WeatherAPI.
+Weather Checker is a modern real-time weather monitoring web application that allows users to search any city worldwide and instantly view accurate weather conditions using WeatherAPI.
 
-🚀 Live Demo
+It is designed with a clean UI, fast performance, and a smooth user experience.
 
-👉 https://weather-checker-six-teal.vercel.app/
-
-✨ Features
-🌍 Real-Time Weather Data
-Fetches live weather information using WeatherAPI
-Supports global city search (e.g., Delhi, New York, Paris)
+🚀 Key Highlights
+🌍 Global real-time weather search
+⚡ Fast and responsive performance
+🎨 Modern glassmorphism UI
+📱 Fully responsive (Mobile + Desktop)
+🔍 Smart input handling & validation
+🌐 Core Features
+🌍 Real-Time Weather Engine
+Fetches live weather data using WeatherAPI
+Supports worldwide city search
 Displays:
 🌡️ Temperature
-☁️ Weather Condition
+☁️ Weather condition
 💧 Humidity
-🌬️ Wind Speed
-🔍 Smart Search
-Flexible city input handling
-Input validation & error handling
-Optimized API queries for accurate results
+🌬️ Wind speed
+🔍 Smart Search System
+Handles flexible inputs (Delhi, London, New York)
+Encodes queries for better API accuracy
+Input validation with proper error handling
+Displays user-friendly error messages
 🎨 Modern UI/UX
 Clean glassmorphism design
-Fully responsive (mobile + desktop)
-Smooth and interactive user experience
-⚡ Performance
-Fast API response handling
+Smooth interactions and transitions
+Responsive layout for all devices
+Minimal and distraction-free interface
+⚡ Performance Optimization
+Fast API request handling
 Loading indicators for better UX
-Graceful error messages
+Optimized DOM updates
+Graceful fallback for errors
 🛠️ Tech Stack
-Category	Technology
-Frontend	HTML5, CSS3, JavaScript (ES6+)
-Styling	Flexbox, Modern UI (Glassmorphism)
-API	WeatherAPI
+🔹 Frontend
+HTML5
+CSS3 (Flexbox + Glassmorphism UI)
+JavaScript (ES6+)
+🔹 API
+WeatherAPI (Real-time weather data provider)
 📂 Project Structure
 Weather-App/
-│── index.html        # Main application (HTML + CSS + JS)
-└── README.md         # Documentation
-⚙️ How It Works
-User enters a city name
-Application sends request to WeatherAPI
-API returns real-time weather data
-UI updates dynamically with:
-Temperature 🌡️
-Weather condition ☁️
-Humidity 💧
-Wind speed 🌬️
-🔐 API Configuration
+│
+├── index.html        # Main application (HTML + CSS + JS)
+└── README.md         # Project documentation
 
-This project uses WeatherAPI:
-
-https://api.weatherapi.com/v1/current.json
 
 ⚠️ Note:
-API key is used for development/demo purposes.
-For production, store it securely using environment variables.
+For production, store your API key securely using environment variables.
 
+📊 How It Works
+User enters a city name
+Application sends API request to WeatherAPI
+API returns real-time weather data
+UI dynamically updates with:
+Temperature 🌡️
+Condition ☁️
+Humidity 💧
+Wind speed 🌬️
 📈 Future Enhancements
 🌦️ 7-day weather forecast
-📍 Location-based weather (GPS support)
+📍 Auto location detection (GPS)
 🌙 Dark/Light theme toggle
-🕘 Search history tracking
+🕘 Search history feature
 🎬 Animated weather icons
 👨‍💻 Author
 
 Vivek Kumar
-🎓 B.Tech Computer Science Student
-💻 Frontend Developer | Learning by Building
+B.Tech Computer Science Engineering
+Frontend Developer
 
 ⭐ Support
 
